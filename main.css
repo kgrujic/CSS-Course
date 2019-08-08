@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
 }
 body {
@@ -25,9 +25,9 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-/* h1 {
+ h1 {
     font-family: sans-serif;
-} */
+} 
 
 .main-header {
     width: 100%;
@@ -94,5 +94,38 @@ body {
     color: #ff1b68;
     background: white;
     border: none;
+} */
+
+body {
+    font-family: sans-serif;
 }
+
+nav {
+    margin-bottom: 16px;
+    background: #fa923f;
+    padding: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+a.active{
+    color: #521751;
+}
+
+.main-section {
+    height: 800px;
+    border: 1px solid #ccc;
+    padding: 16px;
+}
+
+.highlighted {
+    border: 2px solid #fa923f;
+}
+
+
+
 
