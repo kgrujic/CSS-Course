@@ -20,6 +20,11 @@
     font-family: sans-serif;
 } 
 
+.plan_list {
+    width: 80%;
+    margin: auto;
+}
+
 .plan {
     background: #d5ffdc;
     text-align: center;
